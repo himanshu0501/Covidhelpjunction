@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'donationbox',
     'user_profile.apps.UserProfileConfig',
     'crispy_forms',
+    'oxygenrefill',
+    'django_google_maps',
     
 ]
 
@@ -149,3 +151,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'himanshu18060501@gmail.com'
 EMAIL_HOST_PASSWORD = 'himns0501@'      # here we are connecting the user to send the mail on this host user.
 # after that we will get one error called password reset complete  for that we  will add one more route 
+
+
+
+GOOGLE_MAPS_API_KEY = "AIzaSyAqG20z4eeW427TFm9osB_aCsL-RnM0oGo"
