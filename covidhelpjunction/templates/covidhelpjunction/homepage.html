@@ -1,0 +1,42 @@
+{% extends "covidhelpjunction/basic.html" %}
+{% load static %}
+{%block title %}Home{% endblock title %}
+{% block content %}
+<section id="nav-bar">
+  <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"></a>
+      <h3>Covid Help Junction</h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'homepage' %}">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'home' %}">Donation Box</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Price comparision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Oxygen re-fill</a>
+        </li>
+      </ul>
+  </nav>
+</section>
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="heading-title">Hello, Welcome to the covidhelpjunction.</p>
+        <p>We are here to help you in your hard days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br/><br/>
+{% endblock content %}
+
