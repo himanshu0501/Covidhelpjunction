@@ -40,9 +40,7 @@ INSTALLED_APPS = [
     'donationbox',
     'user_profile.apps.UserProfileConfig',
     'crispy_forms',
-    'oxygenrefill',
-    'django_google_maps',
-    
+    'oxygenrefill',    
 ]
 
 MIDDLEWARE = [
@@ -154,4 +152,4 @@ EMAIL_HOST_PASSWORD = 'himns0501@'      # here we are connecting the user to sen
 
 
 
-GOOGLE_MAPS_API_KEY = "AIzaSyAqG20z4eeW427TFm9osB_aCsL-RnM0oGo"
+GOOGLE_API_KEY = ""

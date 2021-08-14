@@ -1,0 +1,11 @@
+1. Cover Page
+2. Abstract
+3. Acknowelegement
+4. Table of Content
+5. Intro - motivation, background, exting method
+6. analysis, requriments, tools used etc.
+7. Design - flow charts etc.
+8. coding and implementation
+9. conslusion and remarks
+10. Biblography and ref
+
