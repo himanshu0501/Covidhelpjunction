@@ -1,0 +1,29 @@
+[INFO  - 2021-08-15T10:17:37.838Z] GhostDriver - Main - running on port 57693
+[INFO  - 2021-08-15T10:17:39.923Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-08-15T10:17:39.923Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.customHeaders:  - {}
+[INFO  - 2021-08-15T10:17:39.923Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-08-15T10:17:39.923Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0541b390-fdb2-11eb-9965-b545ed05a48b
+[ERROR - 2021-08-15T10:17:48.523Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"72\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:57693\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 20000, \\\"sessionId\\\": \\\"0541b390-fdb2-11eb-9965-b545ed05a48b\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/0541b390-fdb2-11eb-9965-b545ed05a48b/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-08-15T10:17:50.594Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.onError - msg: ReferenceError: Can't find variable: Map
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-08-15T10:17:50.594Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.onError - stack:
+  (anonymous function) (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/vendor.chunk.4578165a.js:2)
+  d (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.cb837041.js:1)
+  (anonymous function) (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/vendor.chunk.4578165a.js:2)
+  d (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.cb837041.js:1)
+  (anonymous function) (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/app.chunk.3701cd58.js:1)
+  d (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.cb837041.js:1)
+  r (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.cb837041.js:1)
+  a (https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/js/runtime.cb837041.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-08-15T10:17:50.601Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.onError - msg: TypeError: undefined is not an object (evaluating 'a.omniture.tpv')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-08-15T10:17:50.601Z] Session [0541b390-fdb2-11eb-9965-b545ed05a48b] - page.onError - stack:
+  (anonymous function) (https://static-assets-web.flixcart.com/www/linchpin/batman-returns/omni/omni16.js:96)
+
+  phantomjs://platform/console++.js:263 in error

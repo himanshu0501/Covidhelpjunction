@@ -26,7 +26,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/',views.homepage,name='homepage'),
     path('donationbox/',include('donationbox.urls')),
-    path('oxygenrefill/',oxygen_views.center,name='oxygenrefill'),
+    path('route/',oxygen_views.route,name='route'),
+    path('map/',oxygen_views.map,name='map'),
 ]
 
 

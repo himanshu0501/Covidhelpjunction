@@ -75,7 +75,7 @@ class ExtenededuserForm(forms.ModelForm): # here we are creating another form ta
         widgets = {
               'name':forms.TextInput(attrs={'placeholder':'Enter Name'}),
               'birth_date':forms.TextInput(attrs={'placeholder':'Enter Birthdate (dd/mm/yyyy)'}),
-              'batch':forms.TextInput(attrs={'placeholder':'Enter Batch (2000-30)'}),
+              'batch':forms.TextInput(attrs={'placeholder':'Enter Number '}),
               'address':forms.Textarea(attrs={'placeholder':'Enter Address'}),
               'state':forms.TextInput(attrs={'placeholder':'Enter Hometown State'}),
               'city':forms.TextInput(attrs={'placeholder':'Enter Hometown City'}),
