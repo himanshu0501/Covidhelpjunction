@@ -20,7 +20,7 @@
 
   <!-- This allows us to extend the nav bar in HTML docs that have special requirements-->
   {% block extend_nav %}
-
+  
   {% endblock %}
 
   <div class="div-container">
@@ -31,7 +31,29 @@
     {% endblock %}
 
   </div>
-
+  <section id="nav-bar">
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"></a>
+        <h3>Covid Help Junction</h3>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'homepage' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">Donation Box</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Price comparision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'route' %}">Oxygen re-fill</a>
+          </li>
+        </ul>
+    </nav>
+  </section>
   <!--visit https://code.jquery.com/ for jquery script-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
